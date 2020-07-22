@@ -67,7 +67,7 @@ function extract_event(spo, events) {
             }
         }
         // 谓语的地点和方向
-        match = spo.p.match(/\[.+?\]|<.+?>/g);
+        match = spo.p.match(/\[.+?\]/g);
         if (match !== null) {
             for (i=0; i<match.length; i++) {
                 event.place += match[i];
@@ -75,7 +75,7 @@ function extract_event(spo, events) {
         }
         // 主语的地点和方向
         if (event.place === "") {
-            match = spo.s.match(/\[.+?\]|<.+?>/g);
+            match = spo.s.match(/\[.+?\]/g);
             if (match !== null) {
                 for (i=0; i<match.length; i++) {
                     event.place += match[i];
@@ -83,7 +83,7 @@ function extract_event(spo, events) {
             }
         }
         // 主语
-        match = spo.s.match(/\[.+?\]|<.+?>|~.+?~|{.+?}|《.+?》|`.+?`|【.+?】/g);
+        match = spo.s.match(/\(.+?\)|\[.+?\]|<.+?>|~.+?~|{.+?}|《.+?》|`.+?`|【.+?】/g);
         if (match !== null) {
             for (i=0; i<match.length; i++) {
                 event.subject += match[i];
@@ -103,7 +103,7 @@ function extract_event(spo, events) {
         if ((typeof spo.o) === 'string') {
             // 宾语的地点和方向
             if (event.place === "") {
-                match = spo.o.match(/\[.+?\]|<.+?>/g);
+                match = spo.o.match(/\[.+?\]/g);
                 if (match !== null) {
                     for (i=0; i<match.length; i++) {
                         event.place += match[i];
@@ -111,7 +111,7 @@ function extract_event(spo, events) {
                 }
             }
             // 宾语
-            match = spo.o.match(/\[.+?\]|<.+?>|~.+?~|{.+?}|\(.+?\)|《.+?》|`.+?`|【.+?】/g);
+            match = spo.o.match(/\(.+?\)|\[.+?\]|<.+?>|~.+?~|{.+?}|\(.+?\)|《.+?》|`.+?`|【.+?】/g);
             if (match !== null) {
                 for (i=0; i<match.length; i++) {
                     event.object += match[i];
