@@ -18,7 +18,7 @@ app.post("/", function (req, response) {
     }
     console.log('text=' + text);  /////////////////////
     request.post({
-        url: "http://triple.ruoben.com:8008",  // "http://triple-svc:50000"
+        url: "http://triple-svc:50000",  // "http://triple.ruoben.com:8008"
         headers: {
             "Content-Type": "text/plain"
         },
@@ -92,7 +92,7 @@ function extract_event(spo, events) {
             event.subject += spo.s;
         }
         // 谓语（要带否定词）
-        match = spo.p.match(/~.+?~|【.+?】/g);
+        match = spo.p.match(/~.+?~|{.+?}|【.+?】/g);
         if (match !== null) {
             for (i=0; i<match.length; i++) {
                 event.predicate += match[i];
@@ -111,7 +111,7 @@ function extract_event(spo, events) {
                 }
             }
             // 宾语
-            match = spo.o.match(/\(.+?\)|\[.+?\]|<.+?>|~.+?~|{.+?}|\(.+?\)|《.+?》|`.+?`|【.+?】/g);
+            match = spo.o.match(/\(.+?\)|\[.+?\]|<.+?>|~.+?~|{.+?}|《.+?》|`.+?`|【.+?】/g);
             if (match !== null) {
                 for (i=0; i<match.length; i++) {
                     event.object += match[i];
