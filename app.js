@@ -92,7 +92,7 @@ function extract_event(spo, events) {
             event.subject += spo.s;
         }
         // 谓语（要带否定词）
-        match = spo.p.match(/~.+?~|{.+?}|【.+?】/g);
+        match = spo.p.match(/~.+?~|{.+?}|\(.+?\)|\[.+?\]|【.+?】/g);
         if (match !== null) {
             for (i=0; i<match.length; i++) {
                 event.predicate += match[i];
@@ -167,19 +167,24 @@ function merge_concat(s1, s2) {
 
 function extract_fact(spo, facts) {
     if ((typeof spo) !== 'string') {  // spo三元组
+        var place1 = false, place2 = false, direction = false, distance = false;
         // 主语
         var match = spo.s.match(/\[.+?\]|<.+?>|{.+?}|【.+?】/g);
         if (match !== null) {
             var fact = {place1: "", place2: "", direction: "", distance: ""};
             for (var i=0; i<match.length; i++) {
-                if (match[i].indexOf('【') === 0) {
+                if (!place1 && match[i].indexOf('【') === 0) {
                     fact.place1 = match[i];
-                } else if (match[i].indexOf('[') === 0) {
+                    place1 = true;
+                } else if (!place2 && match[i].indexOf('[') === 0) {
                     fact.place2 = match[i];
-                } else if (match[i].indexOf('<') === 0) {
+                    place2 = true;
+                } else if (!direction && match[i].indexOf('<') === 0) {
                     fact.direction = match[i];
-                } else if (match[i].indexOf('{') === 0) {
+                    direction = true;
+                } else if (!distance && match[i].indexOf('{') === 0) {
                     fact.distance = match[i];
+                    distance = true;
                 }
             }
             if (fact.place1 && fact.place2 && fact.direction) {
@@ -187,21 +192,26 @@ function extract_fact(spo, facts) {
             }
         }
         if ((typeof spo.o) === 'string') {
+            place1 = false, place2 = false, direction = false, distance = false;
             // 宾语
             fact = {place1: "", place2: "", direction: "", distance: ""};
             match = spo.s.match(/【.+?】/g);
-            if (match !== null) {
+            if (!place1 && match !== null) {
                 fact.place1 = match[0];
+                place1 = true;
             }
             match = spo.o.match(/\[.+?\]|<.+?>|{.+?}/g);
             if (match !== null) {
                 for (i=0; i<match.length; i++) {
-                    if (match[i].indexOf('[') === 0) {
+                    if (!place2 && match[i].indexOf('[') === 0) {
                         fact.place2 = match[i];
-                    } else if (match[i].indexOf('<') === 0) {
+                        place2 = true;
+                    } else if (!direction && (match[i].indexOf('<') === 0)) {
                         fact.direction = match[i];
-                    } else if (match[i].indexOf('{') === 0) {
+                        direction = true;
+                    } else if (!distance && match[i].indexOf('{') === 0) {
                         fact.distance = match[i];
+                        distance = true;
                     }
                 }
                 if (fact.place1 && fact.place2 && fact.direction) {
