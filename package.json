@@ -1,25 +1,25 @@
 {
   "name": "openie",
   "version": "1.0.0",
-  "description": "解析三元组系统",
+  "description": "解析知识元系统",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dongyt2004/openie.git"
+    "url": "git+https://github.com/dongyt2004/extract.git"
   },
   "keywords": [
-    "openie",
-    "通用知识抽取"
+    "info extraction",
+    "知识抽取"
   ],
   "author": "董玉涛",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dongyt2004/openie/issues"
+    "url": "https://github.com/dongyt2004/extract/issues"
   },
-  "homepage": "https://github.com/dongyt2004/openie#readme",
+  "homepage": "https://github.com/dongyt2004/extract#readme",
   "devDependencies": {
     "parcel-bundler": "1.12.4"
   },
