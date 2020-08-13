@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="697776a6-d584-4644-975a-4ada1fd97df5" name="Default" comment="1st commit - 2020.07.21">
+      <change beforePath="$PROJECT_DIR$/.idea/extract.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/extract.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>triple</find>
+      <find>spo.o</find>
+      <find>prop</find>
+      <find>j</find>
+      <find>~.+?~|</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>openie</replace>
+      <replace>i</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../triple/app.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1fdFRKO4mDJTWkwtqhEiR1kCYrE" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\works\node\openie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js (1)">
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../triple/app.js" working-dir="$PROJECT_DIR$/../triple">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="697776a6-d584-4644-975a-4ada1fd97df5" name="Default" comment="" />
+      <created>1595171752352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595171752352</updated>
+      <workItem from="1595171753810" duration="2039000" />
+      <workItem from="1595213691540" duration="498000" />
+      <workItem from="1595216111485" duration="1204000" />
+      <workItem from="1595218075442" duration="1982000" />
+      <workItem from="1595221368801" duration="1098000" />
+      <workItem from="1595227501806" duration="11986000" />
+      <workItem from="1595261749953" duration="1408000" />
+      <workItem from="1595293858418" duration="3191000" />
+      <workItem from="1595310337220" duration="3369000" />
+      <workItem from="1595318533567" duration="19032000" />
+      <workItem from="1595344188903" duration="1558000" />
+      <workItem from="1595402243488" duration="1310000" />
+      <workItem from="1595409800081" duration="2892000" />
+      <workItem from="1595422276965" duration="1195000" />
+      <workItem from="1595473958171" duration="4253000" />
+      <workItem from="1595483507853" duration="920000" />
+      <workItem from="1595553632434" duration="152000" />
+      <workItem from="1595772364422" duration="25000" />
+      <workItem from="1595775860495" duration="608000" />
+      <workItem from="1596433297373" duration="124000" />
+      <workItem from="1596540053516" duration="125000" />
+      <workItem from="1596540710397" duration="231000" />
+      <workItem from="1596541853006" duration="131000" />
+      <workItem from="1596591018942" duration="16000" />
+      <workItem from="1596630809593" duration="991000" />
+      <workItem from="1596710834731" duration="105000" />
+      <workItem from="1596710998999" duration="171000" />
+      <workItem from="1597220284767" duration="6554000" />
+      <workItem from="1597279987989" duration="127000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit - 2020.07.21">
+      <created>1595340254704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595340254704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1st commit - 2020.07.21">
+      <created>1595341380363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341380363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1st commit - 2020.07.21">
+      <created>1595341675101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341675101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1st commit - 2020.07.21">
+      <created>1595377760816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595377760816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1st commit - 2020.07.21">
+      <created>1595411140822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595411140822</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1st commit - 2020.07.21">
+      <created>1595553710954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595553710954</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1st commit - 2020.07.21">
+      <created>1597223612492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597223612492</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1st commit - 2020.07.21">
+      <created>1597223674312</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597223674312</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit - 2020.07.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit - 2020.07.21" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1597277201498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597277201498" />
+    <state width="939" height="466" key="DebuggerActiveHint" timestamp="1597223502437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="939" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1597223502437" />
+    <state width="1515" height="169" key="GridCell.Tab.0.bottom" timestamp="1597279556596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597279556596" />
+    <state width="1515" height="169" key="GridCell.Tab.0.center" timestamp="1597279556596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597279556596" />
+    <state width="1515" height="169" key="GridCell.Tab.0.left" timestamp="1597279556596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597279556596" />
+    <state width="1515" height="169" key="GridCell.Tab.0.right" timestamp="1597279556596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597279556596" />
+    <state width="1515" height="169" key="GridCell.Tab.1.bottom" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.1.center" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.1.left" timestamp="1597279556596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597279556596" />
+    <state width="1515" height="169" key="GridCell.Tab.1.right" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.2.bottom" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.2.center" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.2.left" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.2.right" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.3.bottom" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.3.center" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.3.left" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state width="1515" height="169" key="GridCell.Tab.3.right" timestamp="1597279556597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="169" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1597279556597" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1596541955645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596541955645" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597223677752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597223677752" />
+    <state x="562" y="311" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596540127339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="311" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596540127339" />
+  </component>
+</project>

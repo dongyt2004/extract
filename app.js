@@ -152,7 +152,7 @@ function flatten(obj) {
     }
     return result;
 }
-
+// 两个字符串如果首位若干字符相同则合并然后再连接
 function merge_concat(s1, s2) {
     var m = Math.min(s1.length, s2.length);
     for(var i=m; i>0; i--) {
